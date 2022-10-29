@@ -1,0 +1,17 @@
+.btn-success:hover{
+background-color: black;
+}
+canvas{
+    animation-name: lipstick;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lipstick{
+    from {
+        box-shadow: 2px 2px 45px rgb(255, 0, 0);
+    }
+    to {
+        box-shadow: 2px 2px 45px rgb(141, 2, 255);
+    }
+}
